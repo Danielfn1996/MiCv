@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: auto;
 }
 
 body {
@@ -9,9 +10,15 @@ body {
     flex-direction: column;
     justify-content: space-around;
     font-family: "Roboto", sans-serif;
-    background-color: white;
+   
    
 
+}
+
+main{
+    background-color: azure;
+    margin-top: 50px;
+    
 }
 
 header {
@@ -30,7 +37,7 @@ h1 {
 
 .dvPrincipal {
     padding: 1rem;
-    background-color: azure;
+   
     display: flex;
     justify-content: space-between;
     margin: 20px;
@@ -43,14 +50,14 @@ h1 {
     align-self: flex-start;
     justify-content: center;
     width: 49%;
-    height: 100vh;
+
 }
 
 .dvIzquierda {
     align-self: flex-end;
     justify-content: center;
     width: 49%;
-    height: 100vh;
+    
 }
 
 
